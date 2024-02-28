@@ -1483,6 +1483,49 @@ cursor: pointer;
 /*STOP SECTION # 4*/
 
 
+/*FOOTER*/
+.web-text-footer {
+  flex-direction: row;
+}
+.footer-section {
+  padding: 100px 0;
+}
+.email-input {
+  justify-content: unset;
+}
+
+.container .footer {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1128px;
+}
+.web-net-footer {
+  padding-right: 80px;
+  padding-bottom: 0px;
+}
+
+.footer-left {
+  padding-right: 120px;
+  padding-bottom: 0px;
+}
+
+.web-link-footer:hover,
+.web-link-footer:focus {
+  background-color: #31d0aa;
+}
+.btn-footer:hover,
+.btn-footer:focus {
+  background-color: #404bbf;
+}
+/*STOP FOOTER*/
+
+
+
+
+
+
+
 
 
 
@@ -1490,3 +1533,15 @@ cursor: pointer;
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
