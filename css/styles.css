@@ -1162,6 +1162,10 @@ cursor: pointer;
   justify-content: center;
 }
 
+.icons-section_ii {
+  display: none;
+}
+
 .our-focus-list {
   display: flex;
   flex-wrap: wrap;
@@ -1352,16 +1356,62 @@ cursor: pointer;
 .address-link:focus {
   color: #404bbf;
 }
+/*STOP HEADER for 1158*/
 
 
 
+/*SECTION # 1*/
+.hero-header {
+  font-size: 56px;
+}
+
+.hero_section {
+  min-width: 1158px;
+    height: 600px;
+    justify-content: center;
+}
+
+.order-button:hover,
+.order-button:focus {
+    background-color: #404bbf;
+  }
+/*STOP SECTION # 1*/
 
 
+/*SECTION # 2*/
+.section-two .container {
+  display: flex;
+    justify-content: center;
+}
 
+.icons-section_ii{
+  display: flex;
+}
 
+.focus-item {
+  display: flex;
+    flex-wrap: nowrap;
+    padding: 0;
+    width: 1128px;
+}
 
-
-
+.focus {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.focus-p {
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+/*STOP SECTION # 2*/
 
 
 
