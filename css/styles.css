@@ -1295,8 +1295,64 @@ cursor: pointer;
 .modal-footer {
   display: flex;
     flex-direction: row;
-}
+}}
 /*STOP FOOTER*/
+
+
+
+/*загальний розмір екрану для пристрою-1158*/
+@media screen and (min-width: 1158px) {
+
+  /*HEADER for 1158*/
+  .container {    
+   min-width: 1158px;
+ }
+
+ .header-section {
+  position: relative;
+}
+  .nav-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header-nav {
+  width: auto;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.links-list {
+  display: flex;
+  justify-content: start;
+  width: auto;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts-list {
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  padding: 0;
+}
+
+.address-link {
+  font-size: 16px;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
 
 
 
