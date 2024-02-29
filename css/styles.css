@@ -849,7 +849,7 @@ body {
 }
 
 .web-link {
-  width: 100%;
+  width: 40px;
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
@@ -866,7 +866,10 @@ body {
 
 .icon-web {
   fill: #f4f4fd;
+
 }
+
+
 
 @media screen and (min-width: 1158px) {
   .social-link:hover,
@@ -896,6 +899,11 @@ body {
   .container-section-four {
     padding: 120px 0;
   }
+}
+
+
+.container .footer {
+
 }
 
 .portfolio-header {
@@ -1302,7 +1310,7 @@ body {
 }
 
 .input-footer {
-  /*width: 264px;*/
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
