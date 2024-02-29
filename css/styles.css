@@ -70,21 +70,16 @@ body {
 @media screen and (min-width: 320px) and (max-width: 767px) {
   /*HEADER for 320*/
   .container {
-    min-width: 100%;
+max-width: 320px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   /*HEADER for 768*/
   .container {
-    min-width: 100%;
+   max-width: 768px;
   }
 }
-@media screen and (min-width: 1158px) {
-  /*HEADER for 1158*/
-  .container {
-    min-width: 1158px;
-  }
-}
+
 
 /*HEADER*/
 .header-section {
@@ -165,10 +160,16 @@ body {
   @media screen and (min-width: 768px) and (max-width: 1157px) {
         .logo {
       margin: 0;
+      width: 115px;
+      height: 24px;
     }}
+      
     @media screen and (min-width: 1158px) {
            .logo {
-        margin-right: 76px;
+        margin-right: 16px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        align-items: flex-start;
       }}
 
 
@@ -292,6 +293,7 @@ body {
        .address-link {
       font-size: 12px;
     }}
+    
     @media screen and (min-width: 1158px) {
          .address-link {
         font-size: 16px;
@@ -317,7 +319,13 @@ body {
 
   @media screen and (min-width: 768px) and (max-width: 1157px) {
         .menu-burger {
+          display: none;
     }}
+
+    @media screen and (min-width: 1158px) {
+      .menu-burger {
+        display: none;
+   }}
         /*STOP HEADER*/
 
 
@@ -325,9 +333,14 @@ body {
 
       /*SECTION # 1*/
       .hero_section {
-        background-color: #2e2f42;
-        max-width: 1440px;
+        width:100%;
+        text-align: center;
+        padding-top: 118px;
+        padding-bottom: 118px;
         margin: 0 auto;
+        background-color: #2e2f42;
+        /* max-width: 1440px; */
+        /* margin: 0 auto; */
         background-image: linear-gradient(
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)
@@ -337,27 +350,27 @@ body {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+
       }
       @media screen and (min-width: 320px) and (max-width: 767px) {
         .hero_section {
-          min-width: 320px;
-          height: 432px;
+          /* width */
+          /* height: 432px; */
         }}
         @media screen and (min-width: 768px) and (max-width: 1157px) {
           .hero_section {
-            min-width: 768px;
-            height: 436px;
+            max-width: 768px;
+            /* height: 436px; */
           }}
           @media screen and (min-width: 1158px) {
                 .hero_section {
               min-width: 1158px;
-              height: 600px;
+              /* height: 600px; */
               justify-content: center;
             }}
 
 
       .hero_section .container {
-        padding: 188px 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -365,36 +378,38 @@ body {
 
 
       .hero-header {
-        font-size: 56px;
-        line-height: 1.07;
+        /* max-width: 360px; */
+        font-size:24px;
+        /* line-height: 1.07; */
         letter-spacing: 0.02em;
         color: #ffffff;
-        width: 496px;
-        max-width: 496px;
+        /* width: 496px; */
+        /* max-width: 496px; */
         margin: 0 auto;
         margin-bottom: 24px;
-        text-align: center;
+        /* text-align: center; */
       }
       @media screen and (min-width: 320px) and (max-width: 767px) {
              .hero-header {
-          width: 216px;
+          /* width: 216px; */
           font-family: var(--font-family);
           font-weight: 700;
           font-size: 36px;
-          line-height: 111%;
+          /* line-height: 111%; */
           letter-spacing: 0.02em;
           text-transform: capitalize;
           text-align: center;
           color: var(--white);
-          margin-bottom: 47px;
+          margin-bottom: 72px;
         }}
 
         @media screen and (min-width: 768px) and (max-width: 1157px) {
           .hero-header {
-        width: 496px;
+        /* width: 496px; */
         font-family: var(--font-family);
         font-weight: 700;
         font-size: 56px;
+        max-width: 496px;
         line-height: 107%;
         letter-spacing: 0.02em;
         text-align: center;
@@ -402,8 +417,17 @@ body {
 
         @media screen and (min-width: 1158px) {
           .hero-header {
+            font-family: var(--font-family);
+            font-weight: 700;
             font-size: 56px;
-          }}
+            line-height: 107%;
+            letter-spacing: 0.02em;
+            text-align: center;
+            color: var(--white);
+            max-width: 496px;
+      }}
+
+
          
           
       .order-button {
@@ -420,6 +444,7 @@ body {
         border: none;
         border-radius: 4px;
         margin: 0 auto;
+        
         display: inline-block;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       }
