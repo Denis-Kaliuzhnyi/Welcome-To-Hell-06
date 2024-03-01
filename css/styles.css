@@ -1075,15 +1075,12 @@ body {
     background-color: #2e2f42;
   }
 }
-
-
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container .footer {
   }}
 
 @media screen and (min-width: 1158px) {
   .footer-section .container {
-    min-height: 312px;
     min-width: 1158px;
     display: flex;
     flex-direction: row;
@@ -1094,7 +1091,7 @@ body {
   display: flex;
   align-items: baseline;
   background-color: #2e2f42;
-}
+  }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-section {
     background-color: #2e2f42;
@@ -1105,8 +1102,9 @@ body {
   .footer-section {
     padding: 100px 159px 100px 156px;
     min-width: 1158px;
+    align-content: center;
+    align-items: baseline;
 
-  
   }
 }
 
@@ -1195,7 +1193,7 @@ body {
 
 @media only screen and (min-width: 1158px) {
    .footer-text {
-    padding-right: 120px;
+   
     
   }
 }
@@ -1275,14 +1273,16 @@ body {
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .email-input {
    /* max-width: 453px;*/
-    justify-content: center;
-    align-items: unset;
+    
+   justify-content: center;
+    align-items: center;
 
   }
 }
 @media screen and (min-width: 1158px) {
   .email-input {
     justify-content: unset;
+    margin-left: 80px;
   }
 }
 
@@ -1293,17 +1293,16 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--white);
-
-  
+  margin-bottom: 16px;
+  max-width: 75px;
+ 
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .subscribe {
-    text-align: start;
-   
-  
-  }
+   max-width: 75px;
+   margin-left: 108px;
+      }
 }
-
 
 
 .modal-footer {
@@ -1416,7 +1415,7 @@ body {
 
     @media screen and (min-width: 1158px) {
       .web-net-footer {
-        padding-right: 80px;
+        
         padding-bottom: 0px;
       }  
     }
@@ -1437,6 +1436,7 @@ body {
   .footer-left {
    max-width: 264px;
    padding: 0;
+   margin-right: 120px;
    
   }
 }
