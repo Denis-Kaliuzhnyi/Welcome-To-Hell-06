@@ -1075,23 +1075,19 @@ body {
     background-color: #2e2f42;
   }
 }
-@media screen and (min-width: 320px) and (max-width: 767px) {
-  .container .footer {
-    min-width: 768px;
-  }
-}
+
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .container .footer {
-  }
-}
+  }}
+
 @media screen and (min-width: 1158px) {
   .footer-section .container {
     min-height: 312px;
     min-width: 1158px;
     display: flex;
     flex-direction: row;
-  }
+      }
 }
 
 .footer-section {
@@ -1107,7 +1103,10 @@ body {
 }
 @media screen and (min-width: 1158px) {
   .footer-section {
-    padding: 100px 0;
+    padding: 100px 159px 100px 156px;
+    min-width: 1158px;
+
+  
   }
 }
 
@@ -1117,7 +1116,7 @@ body {
 }
 
 .web-text-footer {
-  margin-right: 120px;
+ 
   }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .web-text-footer {
@@ -1159,7 +1158,6 @@ body {
     display: flex;
     justify-content: start;
     margin-top: 96px;
-    margin-left: 108px;
     margin-right: 24px;
   }
 }
@@ -1193,9 +1191,14 @@ body {
   margin: 0px;
   padding-top: 16px;
   padding-bottom: 72px;
+ }
+
+@media only screen and (min-width: 1158px) {
+   .footer-text {
+    padding-right: 120px;
+    
+  }
 }
-
-
 
 .social-media {
   font-weight: 500;
@@ -1290,18 +1293,18 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: var(--white);
-  margin-left: 112px;
-  margin-right: 112px;
-  margin-bottom: 16px;
+
   
 }
 @media screen and (min-width: 768px) and (max-width: 1157px) {
   .subscribe {
     text-align: start;
-    margin-left: 108px;
+   
   
   }
 }
+
+
 
 .modal-footer {
   gap: 24px;
@@ -1322,6 +1325,7 @@ body {
     flex-direction: row;
     margin-bottom: 96px;
     margin-left: 108px;
+    max-width: 453px;
   }
 }
 
@@ -1410,6 +1414,12 @@ body {
       width: 208px;
     }}
 
+    @media screen and (min-width: 1158px) {
+      .web-net-footer {
+        padding-right: 80px;
+        padding-bottom: 0px;
+      }  
+    }
   
 
   .footer-left {
@@ -1442,14 +1452,13 @@ body {
   }}
 
   @media screen and (min-width: 1158px) {
+    .icons-all-footer {
+      display: flex;
+      
+    }}
   
 
-@media screen and (min-width: 1158px) {
-  .web-net-footer {
-    padding-right: 80px;
-    padding-bottom: 0px;
-  }  
-}
+
 
 /*STOP FOOTER*/
 
