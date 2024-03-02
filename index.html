@@ -32,7 +32,7 @@
   </head>
 
   <body>
-    <header class="header-section">
+    <header class="header-section hide">
       <div class="container nav-container">
         <nav class="header-nav">
           <a class="logo" href="./index.html"
@@ -72,7 +72,7 @@
 
     <main>
       <!-- section # 1-->
-      <section class="hero_section">
+      <section class="hero_section hide">
         <div class="container">
           <h1 class="hero-header">
             Effective Solutions for&nbsp;Your Business
@@ -82,7 +82,7 @@
       </section>
 
       <!-- section # 2 -->
-      <section class="section-two">
+      <section class="section-two hide">
         <div class="container">
           <h2 class="visually-hidden">Our focus</h2>
 
@@ -141,7 +141,7 @@
       </section>
 
       <!-- section # 3 -->
-      <section class="our-team">
+      <section class="our-team hide">
         <div class="container">
           <h2 class="our-team-header">Our Team</h2>
           <ul class="team-list">
@@ -318,7 +318,7 @@
       </section>
 
       <!-- section # 4 -->
-      <section class="container-section-four">
+      <section class="container-section-four hide">
         <div class="container">
           <h2 class="portfolio-header">Our Portfolio</h2>
           <ul class="portfolio-header-four">
@@ -427,7 +427,7 @@
       </section>
     </main>
 
-    <footer class="footer-section">
+    <footer class="footer-section hide">
       <div class="container footer">
         <div class="web-text-footer">
           <div class="footer-left">
@@ -477,7 +477,6 @@
           </div>
 
           <div class="email-input">
-          
             <p class="subscribe">Subscribe</p>
             <form class="modal-footer"> 
               <label class="text-footer" for="user-email-footer">
@@ -495,14 +494,13 @@
                 </svg>
               </button>
             </form>
-          
-          </div>
+                    </div>
         </div>
       </div>
     </footer>
 
     <!-- Modal Window-->
-    <div class="backdrop-hero is-open hide">
+    <div class="backdrop-hero">
       <div class="modal">
         <button class="close-x" type="button" aria-label="Modal close button">
           <svg class="icon-x" width="8" height="8">
@@ -598,24 +596,24 @@
       </div>
     </div>
 
-     <!--MENU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1-->
+     <!--MENU!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
   <div class="backdrop hide">
     <div class="menu">
       <button type="button" class="close-btn">
         <svg class="icon-cross" width="8" height="8">
-          <use href="./images/icons.svg#icon-cross" />
+          <use href="./images/icons.svg#icon-close-x" />
         </svg>
       </button>
 
       <ul class="menu-nav-links">
         <li class="menu-nav-links-item">
-          <a class="menu-nav-links menu-nav-links-studio" href="">Studio</a>
+          <a class="menu-list menu-nav-links-studio" href="">Studio</a>
         </li>
         <li class="menu-nav-links-item">
-          <a class="menu-nav-links" href="">Portfolio</a>
+          <a class="menu-list" href="">Portfolio</a>
         </li>
         <li class="menu-nav-links-item">
-          <a class="menu-lnav-links" href="">Contacts</a>
+          <a class="menu-list" href="">Contacts</a>
         </li>
       </ul>
 
@@ -629,35 +627,41 @@
         </li>
       </ul>
 
-      <ul class="menu-social">
-        <li class="menu-social-item">
-          <a class="menu-social-link" href="">
-            <svg class="menu-social-icon" width="16" height="16">
+      <ul class="icons-all">
+        <li class="web-list">
+          <a href="" class="web-link">
+            <svg class="icon-web" width="16" height="16">
               <use href="./images/icons.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
-        <li class="menu-social-item">
-          <a class="menu-social-link" href="">
-            <svg class="menu-social-icon" width="16" height="16">
+
+        <li class="web-list">
+          <a href="" class="web-link">
+            <svg class="icon-web" width="16" height="16">
               <use href="./images/icons.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
-        <li class="menu-social-item">
-          <a class="menu-social-link" href="">
-            <svg class="menu-social-icon" width="16" height="16">
+
+        <li class="web-list">
+          <a href="" class="web-link">
+            <svg class="icon-web" width="16" height="16">
               <use href="./images/icons.svg#icon-facebook"></use>
-            </svg></a>
+            </svg>
+          </a>
         </li>
-        <li class="menu-social-item">
-          <a class="menu-social-link" href="">
-            <svg class="menu-social-icon" width="16" height="16">
+
+        <li class="web-list">
+          <a href="" class="web-link">
+            <svg class="icon-web" width="16" height="16">
               <use href="./images/icons.svg#icon-In"></use>
             </svg>
           </a>
         </li>
       </ul>
+    </div>
+  </li>
 
     </div>
   </div>
